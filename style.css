@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+margin:0px;
+padding:0px;	
+	
+}
+#maindiv{
+	
+	max-width:1370px;
+	min-height:500px;
+	margin:0px auto;
+	}
+	#header{
+	max-width:1370px;
+	height:100px;
+	}
+	
+	#headerleft{
+		
+	float:left;
+	margin-top:10px;
+	margin-left:10px;	
+	position:relative;
+	top:10px;	}
+	
+	#headerright{
+	float:right;	
+	
+
+	}
+	#headerright img {
+		margin-top:10px;
+		position:relative;
+		top:10px;
+		}
+		
+		#header a{
+		color:#000;
+		text-decoration:none;	
+		}
+		
+		#header a:hover{
+		text-decoration:underline;	
+		}
+		
+		#box1:hover{
+		border:1px blue solid;	
+			
+		}
+		#box2:hover{
+		border:1px blue solid;	
+			
+		}
+		
+	#centerdiv{
+		max-width:1370px;
+		min-height:425px;
+		}
+		#centerdiv img{
+			width:300px;
+		
+		}
+		#textbox{
+		
+			width:400px;
+			margin-top:25px;
+			height:30px;
+			outline-width:1px;
+			outline-color:#FFF;
+			outline-style:auto;
+			border-radius:2px;
+			box-shadow:3px 3px 3px #999999;
+			}
+			
+			#textbox:hover{
+				border:1px blue solid;
+				width:400px;
+			height:30px;
+			}
+			#textbox:focus{
+				outline-color:red;
+					height:30px;
+				}
+				
+	
+	
+	#textbox2{
+		margin-top:20px;
+		margin-left:10px;
+		margin-right:10px;
+		background-color:#FFF;
+	min-width:150px;
+	min-height:30px;	
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:12px;
+	font-variant:small-caps;
+	box-shadow:1px 1px 1px #999999;
+			
+	
+	
+		}
+
+
+			#textbox2:hover{
+				border:1px blue solid;
+				background-color:#ccc;
+	width:120px;
+	height:30px;	
+			}
+		
+	#od{
+		 max-height:20px;
+		  max-width:20px;
+		position:relative;
+		right:25px;
+		top:8px;
+	}
+	#od:hover{
+border:1px blue solid;
+	}
+		
+		#centerdiv p{
+			line-height:60px;
+			
+			}
+			
+			
+			#centerdiv p>a{
+				text-decoration:none;
+				color:blue;
+				}
+				
+			
+			#centerdiv p>a:hover{
+				text-decoration:underline;
+				}
+				
+			#footer{
+				max-width:1370px;
+				min-height:87px;
+					background-color:#CCC;
+				}
+				#footerleft{
+					margin-left:20px;
+					float:left;
+					margin-top:5px;
+				
+					
+					}
+					#footerleft p+p{
+					line-height:60px;	
+					}
+					
+					#footerright{
+						position:relative;
+						top:40px;
+						float:right;
+						}
+						
+						#footer hr{
+						position:relative;
+						top:30px;	
+						}
+						
+						#footer a{
+						color:black;
+						text-decoration:none;
+							
+						}
+						#footer a:hover{
+						text-decoration:underline;
+							
+						}
